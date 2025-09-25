@@ -1,7 +1,7 @@
 package domain
 
 type DirectorUser struct {
-	ID        int    `json:"id"`
+	ID        string    `json:"id"`
 	Name      string `json:"nombre"`
 	apellidos string `json:"apellidos"`
 	email     string `json:"email"`
